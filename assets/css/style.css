@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	background: #3F3F3F;
+	font-family: Arial: sans-serif;
+	line-height: 24px;
+}
+
+header{
+	background: #F7B733;
+} 
+
+main{
+	background: #4ABDAC;
+}
+
+nav {
+	width: 100%;
+    background: #fff;
+    height: 50px;
+    border-bottom: 5px solid #ccc;
+}
+
+nav ul li {
+	display: block;
+	padding: 10px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+nav ul li a {
+	color: #888;
+	text-decoration: none;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	color: #DFDCE3;
+	padding: 20px 0;  
+} 
+
+p{
+	margin-bottom: 18px;
+}
+
+.brand {
+
+	text-align: center;
+	padding: 20px;
+	background: #003366;
+}
+
+.brand a {
+	color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.card{
+	background: #fff;
+	box-shadow: 0px 2px 8 px #888888;
+	padding: 20px;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.wrapper:after {
+	content:" ";
+	display:table;
+	clear:both;
+}
+
+.content h1{
+	font-size: 32px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #FC4A1A;
+	margin-bottom:  25px;
+}
+
+img.about-me-pic{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	box-shadow: 0 2px Box #777;
+}
+
+
+
+.sidebar h3{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.sidebar ul li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-indent: 9999999em;
+}
+
+.sidebar ul li{
+	display: inline-block;
+}
+
+a.twitter{
+	background-color: #1da1f2;
+
+}
+a.linkedin{
+	background-color: #0077b5;
+
+}
+a.stackoverflow{
+	background-color: #f48024;
+}
+
+.content, .sidebar {
+	width: 100%;
+	margin-bottom: 20px;
+	display: block;
+	overflow: visible;
+}
+
+.content img {
+	width: 100%;
+
+}
+
+.content .project {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.content .project p {
+	display: block;
+	width: 100%;
+	background: #003366;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	margin-top: -70px;
+	z-index: 100;
+}
+
+.content .project img {
+
+}
+
+.myform input, 
+.myform label {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.myform input {
+	margin-bottom: 20px;
+}
+
+.myform .submit {
+	color: #fff;
+	background: #003366;
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 10px 20px 10px 20px;
+	border: 0;
+	width: auto;
+}
+
+.myform textarea {
+	width: 100%;
+}
+
+@media (max-width: 640px) {
+
+}
+
+/* this styles landscape ipads */
+@media (min-width: 768px) {
+	.content img {
+		display: block;
+		width: 45%;
+		margin: 0 2.5% 2.5% 0;
+		float: left;
+	}
+
+	.brand {
+		width: 33%;
+		float: left;
+		display: block;
+	}
+
+	nav {
+		height: 67px;
+		float: left;
+		width: 67%;
+	}
+	.content {
+		clear: both;
+		display: block;
+		margin-top: 70px;
+		overflow: hidden;
+	}
+
+	.content h1 {
+		display: block;
+		width: 100%;
+	}
+
+	.project {
+		width: 45%;
+		margin: 2.5%;
+		float: left;
+	}
+
+	.content .project img {
+		width: 100%;
+	}
+
+	.content .project p {
+		margin-top: 120px;
+	}
+}
+
+/* This styles the desktop version */
+@media (min-width: 980px) {
+	.content{
+		width: 70%;
+		float: left;
+		margin-top: 30px;
+	}
+
+	.sidebar{
+		width: 28%;
+		float: right;
+		margin-top: 30px;
+	}
+}

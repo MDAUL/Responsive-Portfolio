@@ -1,3 +1,1 @@
-# Responsive-Portfolio
-
-This is my awesome project
+# Basic-Portfolio
